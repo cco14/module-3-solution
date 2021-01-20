@@ -1,0 +1,139 @@
+body {
+  font-size: 16px;
+  color: #C94C4C;
+  background-color: #C94C4C;
+}
+
+/** Header **/
+#header-nav {
+  background-color: #EEA29A;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-bottom: 25px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #B1CBBB;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left:20px;
+  line-height: .75;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1{
+	color: #DEEAEE;
+	font-size: 175%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  	font-size: 100%;
+  	font-family: Arial, Helvetica, sans-serif;
+  	padding-left:20px;
+  	padding-right:20px;
+  	padding-top: 20px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+@media(min-width: 992px)
+{
+	.col-md-4
+	{
+		float:left;
+		width:33.33%;
+		padding:20px;
+	}
+
+	.navbar-brand
+	{
+		padding-right: 0px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px)
+{
+	.col-sm-6, .col-sm-12
+	{
+		float:left;
+		padding: 20px;
+	}
+	.col-sm-6
+	{width:50%;}
+	.col-sm-12
+	{width:100%;}
+}
+
+@media (max-width: 767px)
+{
+	.col-xs-12
+	{
+	float:left;
+	width:100%;
+	padding:20px;
+	}
+}
+
+div .section
+{
+	position: relative; 
+	background-color: #B1CBBB;
+	border: 2px solid #DEEAEE; 
+}
+
+.subheading
+{
+	font-size: 125%;
+	color: #C94C4C;
+	font-family: Arial, Helvetica, sans-serif;
+	height: auto;
+    margin: 0 auto;
+    padding: 10px 10px 0px 10px;
+    position: relative;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  background-color: #B1CBBB;
+  color: #C94C4C;
+  text-align: center;
+  border-bottom: 1px solid #DEEAEE;
+}
+#nav-list a:hover {
+  background: #DEEAEE;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #C94C4C;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -42px;
+}
+
+.navbar-default .navbar-collapse
+{border: 0px;
+border-color: #C06C84;
+margin-bottom:-15px;
+}
